@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  border: 3px;
+  border-radius: 15px;
+  border-color: black;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {opacity: .5;transition: 600ms ease;}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+</style>
+</head>
+
+<body>
+<button class="button"><p><a href="https://www.facebook.com//"><img src="data:image/png;base64,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" alt="facebook" width="100" height="132"></a></p>
+
+   
+    <button class="button"><p><a href="https://www.youtube.com/"><img src="https://imgs.search.brave.com/2Epfda4TDRwsH37cvegLQcvPk4qgC7ZJLV2ptd2TLiY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9mcmVl/bG9nb3BuZy5jb20v/aW1hZ2VzL2FsbF9p/bWcvMTY1NjUwMTQ2/NXlvdXR1YmUtcG5n/LnBuZw" alt="facebook" width="100" height="132"></a></p>
+  
+        <button class="button"><p><a href="https://twitter.com//"><img src="https://imgs.search.brave.com/dyFrWlmB1_pVEp3B8My8PfB-QaoGx6VbUSl77-R1l0o/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9mcmVl/bG9nb3BuZy5jb20v/aW1hZ2VzL2FsbF9p/bWcvMTY1NzA0MzM0/NXR3aXR0ZXItbG9n/by1wbmcucG5n" alt="facebook" width="100" height="132"></a></p>
+
+            <button class="button"><p><a href="https://www.instagram.com///"><img src="https://imgs.search.brave.com/0yEnaGGmneITqk4fU-XITwaGurH3v_V4sMTZ1mDsptU/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9pbnN0YWdyYW0t/aWNvbl85NjQ0NjMt/MTE1LmpwZz9zaXpl/PTYyNiZleHQ9anBn" alt="facebook" width="100" height="132"></a></p>
+
+
+
+</body>
+</html>
